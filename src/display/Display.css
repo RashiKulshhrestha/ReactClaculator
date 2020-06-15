@@ -1,0 +1,14 @@
+.result{
+    /* width : 99%; */
+    border-radius: 10px;
+    background: linear-gradient(rgb(37, 37, 37),black);
+    box-shadow: 2px 2px 5px greenyellow;
+    color: aliceblue;
+    height: 19vh;
+    font-size: 45px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+}

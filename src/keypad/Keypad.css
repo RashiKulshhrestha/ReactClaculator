@@ -1,0 +1,28 @@
+.keypad{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button{
+    height:10vh;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border: .5px solid black ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px greenyellow;
+    margin: 7px;
+    outline: none;
+    
+}
+button:hover{
+    background-color:  greenyellow;
+    color: black;
+    opacity: 0.6;
+}
+button:active{
+    transform: scale(.95);
+}
+#clear{
+    background-color: red;
+}
